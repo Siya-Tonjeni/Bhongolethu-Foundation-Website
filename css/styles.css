@@ -1,0 +1,268 @@
+
+/* Heading */
+
+h1{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  line-height: 2;
+}
+
+/* Title */
+
+#title{
+  font-family: 'Montserrat', sans-serif;
+}
+.title-row{
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.6);
+  margin:0 200px;
+  text-align: center;
+}
+.link-title{
+  padding:2%;
+}
+.link-title:hover{
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+}
+
+
+/* About us */
+
+.about-us{
+  padding:2%;
+  margin: 50px 150px 0 150px;
+  border-radius: 25px 25px 0 0;
+  background-color: rgba(173,224,230,0.6);
+  text-align: center;
+}
+
+/* Foundation section */
+
+#foundations{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.primary-col{
+  background-color: #8ab7c8;
+}
+.primary-logo{
+  background-color: #fff;
+  border-radius: 0 0 100% 100%;
+  margin-bottom: 15px;
+}
+.preprimary-col{
+  background-color: #74ddd3;
+}
+.preprimary-logo{
+  background-color: #fff;
+  border-radius: 0 0 100% 100%;
+  margin-bottom: 15px;
+}
+.kindergarten-col{
+  background-color: #ffab4c;
+}
+.kindergarten-logo{
+  background-color: #fff;
+  border-radius: 0 0 100% 100%;
+  margin-bottom: 15px;
+}
+.foundation-headings{
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.foundation-text{
+  color: #fff;
+  margin: 30px;
+}
+
+/* Our Impact */
+#impact{
+  background-color: rgba(173,224,230,0.6);
+}
+.impact-container{
+  margin: 50px 0;
+}
+.impact-slide{
+  padding: 7% 15%;
+  text-align: left;
+}
+.impact-img{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.impact-subheading{
+  color: #74ddd3;
+}
+.impact-icon{
+  color: black;
+  font-size: 3rem;
+}
+
+/* Get Involved */
+
+#involved{
+  margin: 100px;
+  text-align: center;
+}
+
+.icon-vol{
+  color: #8ab7c8;
+}
+
+.icon-don{
+  color: #74ddd3;
+}
+
+.icon-fund{
+  color: #ffab4c;
+}
+
+.icon-csr{
+  color: #d0b5e5;
+}
+
+.btn-vol {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #8ab7c8;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffff 2px;
+  text-decoration: none;
+}
+
+.btn-vol:hover {
+  background: #9db5bd;
+  border: solid #8ab7c8 2px;
+  text-decoration: none;
+}
+
+.btn-don {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #74ddd3;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffff 2px;
+  text-decoration: none;
+}
+
+.btn-don:hover {
+  background: #a7ccc8;
+  border: solid #74ddd3 2px;
+  text-decoration: none;
+}
+
+.btn-fund {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ffab4c;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffff 2px;
+  text-decoration: none;
+}
+
+.btn-fund:hover {
+  background: #fad0a3;
+  border: solid #ffab4c 2px;
+  text-decoration: none;
+}
+
+.btn-csr {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #d0b5e5;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffff 2px;
+  text-decoration: none;
+}
+
+.btn-csr:hover {
+  background: #cdc3d6;
+  border: solid #d0b5e5 2px;
+  text-decoration: none;
+}
+
+.subscribe{
+  text-align: right;
+  color:#fff;
+
+}
+
+/* Contact */
+.box {
+  display: flex;
+  width: 100%;
+  height: 8px;
+  margin: 5px 0 10px 0;
+}
+
+.box-sm {
+  height: 8px;
+  margin: 0;
+  flex-grow: 1;
+  transition: all .8s ease-in-out;
+  cursor: pointer;
+}
+
+/* // Growing the width of box, when hover using flex-grow property */
+.box-sm:hover {
+  flex-grow: 12;
+}
+
+.navy {
+  background-color: #313e48;
+}
+
+.blue {
+  background-color: #8ab7c8;
+}
+
+.light-blue {
+  background-color: #74ddd3;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.orange {
+  background-color: #ffab4c;
+}
+
+.purple {
+  background-color: #d0b5e5;
+}
+
+/* Contact */
+
+#contact{
+  margin: 100px 100px 10px 100px ;
+  text-align: center;
+}
